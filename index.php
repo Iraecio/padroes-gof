@@ -38,3 +38,18 @@ echo $carro . "<br>";
 echo $carro1 . "<br>";
 echo "<br><br>";
 /** Builder */
+
+
+/** 
+ * Factory Method 
+ * */
+
+use iraecio\FactoryMethod\GMCriadorConcreto;
+
+$gm = new GMCriadorConcreto();
+$vectra = $gm->factoryVectra() . "<br>";
+$opala = $gm->factoryOpala() . "<br>";
+echo $vectra->getModelo();
+echo $opala->getModelo();
+
+/** Factory Method */
