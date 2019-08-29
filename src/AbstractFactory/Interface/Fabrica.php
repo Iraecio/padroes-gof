@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace iraecio\AbstractFactory;
 
-interface Fabrica
+interface Modelo
 {
     public function getCachorro();
 
